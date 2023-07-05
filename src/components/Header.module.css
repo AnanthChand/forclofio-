@@ -1,0 +1,11 @@
+.headingpage{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
