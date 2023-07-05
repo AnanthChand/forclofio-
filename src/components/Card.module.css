@@ -2,13 +2,19 @@
     width: 200px;
     height: 150px;
     border: 1px solid black;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .line {
+.line1 {
     font-size: 24px;
     font-weight: bold;
+  }
+
+  .line2 {
+    font-size: 15px;
+    font-weight: 100 
   }

@@ -1,12 +1,14 @@
 import React from 'react'
+import  styles from './Card.module.css'
 
-function Card() {
+
+function Card({line1, line2}) {
   return (
-    <div className={style.box}>
-      <div className= {style.line}>100rs</div>
-      <div className={style.line}>remaining</div>
+    <div className={styles.box}>
+      <div className= {styles.line1}>{line1}</div>
+      <div className={styles.line2}>{line2}</div>
     </div>
   )
 }
 
-export default Card
+export default Card;
